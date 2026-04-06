@@ -27,3 +27,5 @@ RUN sdkmanager "platform-tools" "platforms;android-36" "build-tools;36.0.0"
 
 RUN fvm install stable && fvm global stable
 RUN flutter bash-completion
+RUN flutter --disable-telemetry
+RUN dart --disable-analytics
