@@ -1,8 +1,11 @@
 {
-    "image": "Dockerfile",
-
-    "forwardPorts": [5037],
-
+    "name": "Flutter Dev Container",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "forwardPorts": [
+        5037
+    ],
     "customizations": {
         "vscode": {
             "extensions": [
@@ -10,7 +13,7 @@
                 "dart-code.flutter",
                 "Nash.awesome-flutter-snippets",
                 "jeroen-meijer.pubspec-assist",
-                "Dart Data Class Generator",
+                "hzgood.dart-data-class-generator",
                 "naumovs.color-highlight",
                 "Gruntfuggly.todo-tree",
                 "FelixAngelov.bloc",
